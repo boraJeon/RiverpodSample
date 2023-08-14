@@ -68,7 +68,6 @@ class MainApp extends ConsumerWidget {
     //   ref.read(stringProvider.notifier).state = "스트링 또 변경!!!";
     // });
 
-    print(" adfjadslfkjasdlfkjasdlkfjadslf");
     return MaterialApp(
       home: Scaffold(
         floatingActionButton: FloatingActionButton(
@@ -77,7 +76,7 @@ class MainApp extends ConsumerWidget {
             ref.read(userProvider.notifier).state =
                 defaultUserModel.copyWith(name: "유저모델 이름 변경");
 
-            ref.read(nameProvider.notifier).state = 'dfjkladsfjlasdfjasd';
+            ref.read(nameProvider.notifier).state = 'annotation 활용 이름 변경';
 
             // ref.read(userProvider.notifier).state =
             //     defaultUserModel.copyWith(emailAddress: "유저모델 이름 변경");
